@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     private class ListItemClickListener implements AdapterView.OnItemClickListener {
        @Override
        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-           OrderConfirmDialogFragment dialogFragment = new OrderConfirmDialogFragment();
+           ConFirmDialogFragment dialogFragment = new ConFirmDialogFragment();
 
            dialogFragment.show(getSupportFragmentManager(),"OrderConfirmDialogFragment");
        }
